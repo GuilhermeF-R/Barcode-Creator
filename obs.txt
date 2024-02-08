@@ -1,5 +1,7 @@
 #para funciona abra powershell adm e rode esses comandos Set-ExecutionPolicy RemoteSigned e dps Get-ExecutionPolicy (obs: Set-ExecutionPolicy Restricted volta ao padrão) o arquivo não pode ser carregado porque a execução de scripts foi desabilitada neste sistema.
  .venv/scripts/activate
  python run.py
+  .venv/scripts/pip freeze > requirements.txt
+  pytest -s -v
 
  

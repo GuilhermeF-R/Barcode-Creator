@@ -5,3 +5,4 @@ class HttpUnprocessableEntityError(Exception):
         self.message = message
         self.name = "UnprocessableEntity"
         self.status_code = 422
+        
