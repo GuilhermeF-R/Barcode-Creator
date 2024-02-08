@@ -27,7 +27,7 @@ Durante a terceira e última aula do evento NLW Expert da [Rocketseat](https://a
 
 
 
-##### ⏬ VÍDEO DE DEMONSTRAÇÃO NO FINAL DO READ.ME!
+### ⏬ VÍDEO DE DEMONSTRAÇÃO NO FINAL DO READ.ME!
 
 
 
