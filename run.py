@@ -9,3 +9,4 @@ if __name__ == "__main__":
 #'debug=True' habilita o modo de depuração, o que facilita a detecção e
 # resolução de problemas durante o desenvolvimento
     app.run(host='0.0.0.0', port=3000, debug=True)
+    
