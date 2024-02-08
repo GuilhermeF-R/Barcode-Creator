@@ -1,7 +1,15 @@
-#para funciona abra powershell adm e rode esses comandos Set-ExecutionPolicy RemoteSigned e dps Get-ExecutionPolicy (obs: Set-ExecutionPolicy Restricted volta ao padrão) o arquivo não pode ser carregado porque a execução de scripts foi desabilitada neste sistema.
- .venv/scripts/activate
- python run.py
-  .venv/scripts/pip freeze > requirements.txt
-  pytest -s -v
+Propósito de cada um desses comandos e funções:
 
- 
+1. `Set-ExecutionPolicy RemoteSigned`: Este comando é usado no PowerShell do Windows para definir a política de execução de scripts. Ao definir a política para `RemoteSigned`, você permite que scripts locais (que foram criados localmente) sejam executados sem restrições, mas exige que scripts baixados da Internet sejam assinados digitalmente por um editor confiável antes de serem executados. Isso ajuda a proteger contra a execução de scripts maliciosos.
+
+2. `Get-ExecutionPolicy`: Este comando é usado para verificar a política de execução de scripts atualmente configurada no sistema. Ele retorna o nível de segurança atual da execução de scripts.
+
+3. `.venv/scripts/activate`: Este comando é usado para ativar um ambiente virtual Python. Um ambiente virtual é uma ferramenta que ajuda a manter as dependências de um projeto Python isoladas umas das outras. Quando você ativa um ambiente virtual, as dependências do projeto são isoladas do sistema global Python, o que ajuda a evitar conflitos de dependências entre diferentes projetos.
+
+4. `python run.py`: Este comando é usado para executar um arquivo Python chamado `run.py`. Presumivelmente, este arquivo contém o código principal do projeto ou alguma outra funcionalidade específica.
+
+5. `.venv/scripts/pip freeze > requirements.txt`: Este comando é usado para listar todas as dependências Python instaladas no ambiente virtual atual e salvá-las em um arquivo chamado `requirements.txt`. Este arquivo é comumente usado para gerenciar as dependências de um projeto Python. Ele pode ser compartilhado com outros desenvolvedores para garantir que eles instalem as mesmas dependências em seus ambientes.
+
+6. `pytest -s -v`: Este comando é usado para executar os testes automatizados de um projeto Python usando o framework de teste pytest. Os argumentos `-s` e `-v` são opcionais e controlam a saída do pytest. `-s` exibe a saída padrão durante a execução dos testes e `-v` habilita o modo verbose, exibindo informações detalhadas sobre os testes executados.
+
+Esses comandos e funções são comumente usados no desenvolvimento de software Python para configurar o ambiente de desenvolvimento, executar o código e os testes, e gerenciar as dependências do projeto.
