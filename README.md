@@ -1,4 +1,4 @@
-# :briefcase: Projeto: Barcode_Creator
+# :briefcase: Projeto: Barcode-Creator
 ## PT-BR
 Durante a terceira e última aula do evento NLW Expert da [Rocketseat](https://app.rocketseat.com.br/), desenvolvemos um projeto em Python utilizando diversos frameworks. O objetivo principal do projeto era criar um programa capaz de gerar códigos de barras. Utilizamos o Postman para enviar informações e, em resposta, o programa gerava uma imagem contendo o código de barras correspondente.
 
@@ -39,8 +39,9 @@ Durante a terceira e última aula do evento NLW Expert da [Rocketseat](https://a
 -----------------
 
 
-
+# :briefcase: Project: Barcode-Creator
 ## EN-US
+
 During the third and final class of the NLW Expert event by [Rocketseat](https://app.rocketseat.com.br/), we developed a project in Python using various frameworks. The main objective of the project was to create a program capable of generating barcodes. We utilized Postman to send information, and in response, the program generated an image containing the corresponding barcode.
 
 # :clipboard: Functionality Description:
