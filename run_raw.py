@@ -8,11 +8,11 @@ app = Flask(__name__)
 def create_tag():
     body = request.json
     product_code = body.get('product_code')
-    
+
     tag = Code128(product_code, writer=ImageWriter())
     path_from_tag = f'{tag}'
-    tag.save(path_from_tag) 
-    
+    tag.save(path_from_tag)
+
     return jsonify({ "tag path": path_from_tag })
 
 if __name__ == '__main__':
