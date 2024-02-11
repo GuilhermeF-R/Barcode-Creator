@@ -65,7 +65,7 @@ During the third and final class of the NLW Expert event by [Rocketseat](https:/
 ![2024-02-08 16-54-21 (online-video-cutter com)](https://github.com/GuilhermeF-R/Barcode-Creator/assets/136031870/99df2f5c-b39a-4766-9c83-3e1fec4a1761)
 
   
-
+ 
 
 
 
